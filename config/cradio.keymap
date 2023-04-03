@@ -103,11 +103,11 @@
         // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp ESC   &am LALT LEFT  &am LCTRL F  &am LALT RIGHT   &kp INS 			&kp PG_UP      &kp PG_DN      &kp HOME      &kp END     &kp CAPS
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &sm LALT      &sm LGUI    &kp RSHIFT    &sm LCTL       &sm RALT 		&kp LEFT       &kp DOWN     &kp UP         &kp RIGHT     &kp DEL
+                &sk LALT      &sk LGUI    &kp RSHIFT    &sk LCTL       &sk RALT 		&kp LEFT       &kp DOWN     &kp UP         &kp RIGHT     &kp DEL
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
               &am LGUI Z   &am LGUI X    &am LGUI C      &kp LGUI    &am LGUI V			&kp K           &kp H        &kp CMMA       &kp DOT   &kp C_AC_PRINT
         // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                                        &none          &none    		&kp RET         &none
+                                                        &trans          &trans    		&kp RET         &trans
         //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
@@ -116,13 +116,13 @@
             label = "SYM";
             bindings = <
         // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp EXCL    &kp AT          &kp HASH   &kp DLLR        &kp PRCNT 	    &kp PG_UP      &kp PG_DN      &kp HOME      &kp END     &kp CAPS
+                &kp EXCL    &kp AT          &kp HASH   &kp DLLR        &kp PRCNT 	    &kp EQUAL      &kp GRAVE    &kp COLON      &kp SEMI     &kp PLUS
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &sm LALT      &sm LGUI    &kp RSHIFT    &sm LCTL       &sm RALT 		&kp LEFT       &kp DOWN     &kp UP         &kp RIGHT     &kp DEL
+                &sk LALT      &sk LGUI    &kp RSHIFT    &sk LCTL       &KP CARET		&kp STAR       &kp LPAR     &kp LBRC       &kp LBKT     &kp MINUS
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-              &am LGUI Z   &am LGUI X    &am LGUI C      &kp LGUI    &am LGUI V			&kp K           &kp H        &kp CMMA       &kp DOT   &kp C_AC_PRINT
+              &none             &none    &am BSLH      &kp PIPE         &kp AMPS		&kp TILDE      &kp RPAR      &kp RBRC      &kp RBKT    &kp UNDER
         // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                                        &none          &none    		&none         &none
+                                                        &trans          &trans    		&trans         &trans
         //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
